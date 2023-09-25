@@ -1,0 +1,20 @@
+$color_1: white;
+$background-color_1: #0272d3;
+
+.btn-wrapper {
+  width: 300px;
+  background-color: $background-color_1;
+  height: 35px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.btn {
+  color: $color_1;
+  font-weight: 700;
+  font-size: 18px;
+}
